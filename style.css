@@ -266,7 +266,9 @@ iframe{
 	}
 
 	.clue{
-		padding: 1.25em;
+		padding: 1.5em 2em;
+		margin-top: 6vh;
+		margin-bottom: 7vh;
 	}
 
 	.wrapper {
