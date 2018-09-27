@@ -19,6 +19,8 @@
 	background-image: url("img/deutz.jpg");
 }
 
+
+
 h1{
 	font-size: 12em;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -246,13 +248,13 @@ iframe{
 }
 
 @media only screen and (max-width: 1000px) {
-	    h1{
+	 h1{
 
 	}
 
 	p{
 		line-height: 1.8em;
-		font-size: 1.3em;
+		font-size: 1.2em;
 	}
 
 	h2{
@@ -260,7 +262,11 @@ iframe{
 	}
 
 	h6{
-		font-size: 1.4em;
+		font-size: 1.2em;
+	}
+
+	.clue{
+		padding: 1.25em;
 	}
 
 	.wrapper {
@@ -273,4 +279,9 @@ iframe{
 	svg{
 		width:85vw;
 	}
+	
+	img {
+    width: 75vw;
+	}
+
 }
