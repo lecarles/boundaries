@@ -133,6 +133,9 @@ a:hover{
     font-family: 'Roboto Condensed', sans-serif;
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden; 
+ 	 text-overflow: ellipsis;
+  	white-space: nowrap;
 }
 
 .check-button:hover {
@@ -286,4 +289,11 @@ iframe{
     width: 75vw;
 	}
 
+}
+
+@media only screen and (max-width: 350px) {
+
+	.check-button {
+		font-size: 1.1em;
+	}
 }
