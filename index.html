@@ -16,8 +16,8 @@
 
 			<div class="project-list">
 				<div class="project" id="first">
-					<a href="pages/project1-hints.html"><h2>PROJECT ONE</h2>
-					<h3>METRO HBF</h3></a>
+					<a class="project-link" href="pages/project1-hints.html">PROJECT ONE</a>
+					<h3>METRO HBF</h3>
 				</div>
 
 				<div class="project" id="second">
@@ -32,6 +32,11 @@
 
 	<!--Simple .js addon to fit text to screen size-->
 		<script src="./js/fitty.min.js"></script>
-		<script type="text/javascript" scr="./js/fit.js"></script>
+		<script>
+		fitty('.project-link');
+		fitty('h1');
+		fitty('h2');
+		fitty('h3');
+		</script>
 	</body>
 </html>

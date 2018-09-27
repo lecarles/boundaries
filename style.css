@@ -53,6 +53,12 @@ h5{
 	padding-top: 1.5em;
 }
 
+.project-link{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 10em;
+	font-weight: 700;
+	margin: 0;
+}
 
 a {
 	text-decoration: none;
