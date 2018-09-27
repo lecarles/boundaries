@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:300,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:400,500,700');
 
 .wrapper {
 	font-family: 'Roboto', sans-serif;
@@ -6,7 +6,14 @@
 	margin-top: 10vh;
 	margin-bottom: 8vh;
     width: 50vw;
+    animation: fadein 1.5s;
 }
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
 
 #img-test{
 	background-image: url("img/deutz.jpg");
@@ -23,10 +30,19 @@ h1{
 p{
 	font-family: 'Roboto', sans-serif;
 	line-height: 1.8em;
-	font-size: 1.7em;
+	font-size: 1.35em;
 	color: #666666;
-	font-weight: 500;
+	font-weight: 400;
 	text-align: justify;
+	padding: 2em 0em;
+}
+
+ul{
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.8em;
+	font-size: 1.35em;
+	color: #666666;
+	font-weight: 400;
 }
 
 h2{
@@ -90,7 +106,7 @@ h6{
 a {
 	text-decoration: none;
 	color: #666666;
-	transition: 1s;
+	transition: 0.8s;
 }
 
 a:hover{
@@ -109,10 +125,12 @@ a:hover{
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1.5em;
     border-radius: 100px;
     width: auto;
     font-family: 'Roboto Condensed', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .check-button:hover {
@@ -227,14 +245,14 @@ iframe{
 	margin-bottom: 2vh;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
 	    h1{
 
 	}
 
 	p{
 		line-height: 1.8em;
-		font-size: 1.4em;
+		font-size: 1.3em;
 	}
 
 	h2{

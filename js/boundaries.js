@@ -35,3 +35,5 @@ function outsideTheFence(position) {
                 <h4>You are not there yet. You are `+(calcGeoDistance(position.latitude, position.longitude, lat, lon, 'km').toFixed(3)*1000)+` meters away.</h4>`;
     isInside = false;
 }
+
+
