@@ -11,10 +11,10 @@ function setup() {
     content = document.getElementById('content').innerHTML;
     document.getElementById('content').innerHTML = `
                 <div class="project" id="first">
-                    <h2>PROJECT ONE</h2>
-                    <h4>50.941357, 6.958307.</h4>
+                    <h2>CHECKING LOCATION</h2>
+                    
                 </div>
-                <p>Please allow location access on your device.</p>`;
+                <h4>Please allow location access on your device.</h4>`;
 }
 
 
@@ -30,10 +30,10 @@ function outsideTheFence(position) {
     if (isInside) {
         document.getElementById('content').innerHTML = `
                 <div class="project" id="first">
-                    <h2>PROJECT ONE</h2>
-                    <h4>50.941357, 6.958307.</h4>
+                    <h2>KEEP GOING</h2>
+                    
                 </div>
-                <p>You are not there yet. You are `+(calcGeoDistance(position.latitude, position.longitude, lat, lon, 'km').toFixed(3)*1000)+` meters away.</p>`;
+                <h4>You are not there yet. You are `+(calcGeoDistance(position.latitude, position.longitude, lat, lon, 'km').toFixed(3)*1000)+` meters away.</h4>`;
         isInside = false;
     }
 }
