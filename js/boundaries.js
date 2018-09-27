@@ -27,13 +27,11 @@ function insideTheFence(position){
 }
 
 function outsideTheFence(position) {
-    if (isInside) {
-        document.getElementById('content').innerHTML = `
+    document.getElementById('content').innerHTML = `
                 <div class="project" id="first">
                     <h2>KEEP GOING</h2>
                     
                 </div>
                 <h4>You are not there yet. You are `+(calcGeoDistance(position.latitude, position.longitude, lat, lon, 'km').toFixed(3)*1000)+` meters away.</h4>`;
-        isInside = false;
-    }
+    isInside = false;
 }
