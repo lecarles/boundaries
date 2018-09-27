@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:300,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:300,500,700');
 
 .wrapper {
 	font-family: 'Roboto', sans-serif;
 	margin: auto;
-	margin-top: 12vh;
+	margin-top: 10vh;
 	margin-bottom: 8vh;
     width: 50vw;
+}
+
+#img-test{
+	background-image: url("img/deutz.jpg");
 }
 
 h1{
@@ -13,12 +17,16 @@ h1{
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 700;
 	margin: 0;
+	color: #666666;
 }
 
 p{
 	font-family: 'Roboto', sans-serif;
-	line-height: 2em;
-	font-size: 1.3em;
+	line-height: 1.8em;
+	font-size: 1.7em;
+	color: #666666;
+	font-weight: 500;
+	text-align: justify;
 }
 
 h2{
@@ -26,6 +34,7 @@ h2{
 	font-size: 10em;
 	font-weight: 700;
 	margin: 0;
+	color: #666666;
 }
 
 h3{
@@ -34,6 +43,7 @@ h3{
 	letter-spacing: 0.3em;
 	font-weight: 700;
 	margin: 0;
+	color: #D49C00;
 }
 
 h4{
@@ -42,6 +52,7 @@ h4{
 	font-weight: 700;
 	margin: 0;
 	padding-bottom: 1em;
+	color: #666666;
 }
 
 h5{
@@ -51,6 +62,16 @@ h5{
 	margin: 0;
 	text-align: center;
 	padding-top: 1.5em;
+	color: #666666;
+}
+
+h6{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	font-weight: 500;
+	margin: 0;
+	color: #666666;
 }
 
 .project-link{
@@ -58,15 +79,21 @@ h5{
 	font-size: 10em;
 	font-weight: 700;
 	margin: 0;
+	color: #666666;
+}
+
+.hero{
+	margin-bottom: 12vh;
 }
 
 a {
 	text-decoration: none;
-	color: black;
+	color: #666666;
+	transition: 1s;
 }
 
 a:hover{
-	color: gray;
+	color: black;
 }
 
 .project {
@@ -88,7 +115,7 @@ a:hover{
 }
 
 .check-button:hover {
-    background-color: gray; 
+    color: #D49C00; 
 }
 
 .clue {
@@ -108,7 +135,99 @@ a:hover{
 	background-color: #D7D9D7;
 }
 
+.right{
+	text-align: right;
+}
+
+.blue{
+	color: #58A4B0;
+}
+
+.yellow{
+	color: #D49C00;
+}
+
+.pink{
+	color: #FAB3A9;
+}
+
+.orange{
+	color: #F15A24;
+}
+
+.beige{
+	color: #C6AD94;
+}
+
+.green{
+	color: #05994F;
+}
+
+
+.clue-blue{
+	background-color: #58A4B0;
+	opacity: 0.25;
+}
+
+.clue-yellow{
+	background-color: #D49C00;
+	opacity: 0.25;
+}
+
+.clue-pink{
+	background-color: #FAB3A9;
+	opacity: 0.25;
+}
+
+.clue-orange{
+	background-color: #F15A24;
+	opacity: 0.25;
+}
+
+.clue-beige{
+	background-color: #C6AD94;
+	opacity: 0.25;
+}
+
+.clue-green{
+	background-color: #05994F;
+	opacity: 0.25;
+}
+
+
+.clue-lightblue{
+	background-color: #58A4B0;
+	opacity: 0.1;
+
+}
+
+.clue-lightyellow{
+	background-color: #D49C00;
+	opacity: 0.1;
+}
+
+.clue-lightpink{
+	background-color: #FAB3A9;
+	opacity: 0.1;
+}
+
+.clue-lightorange{
+	background-color: #F15A24;
+	opacity: 0.1;
+}
+
+.clue-lightbeige{
+	background-color: #C6AD94;
+	opacity: 0.1;
+}
+
+.clue-lightgreen{
+	background-color: #05994F;
+	opacity: 0.1;
+}
+
 img {
-	height: auto;
-	width: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
