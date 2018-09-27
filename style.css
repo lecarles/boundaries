@@ -72,6 +72,7 @@ h6{
 	font-weight: 500;
 	margin: 0;
 	color: #666666;
+	opacity: 1;
 }
 
 .project-link{
@@ -102,7 +103,7 @@ a:hover{
 
 
 .check-button {
-    background-color: black; 
+    background-color: #666666; 
     border: none;
     color: white;
     padding: 15px 32px;
@@ -115,7 +116,8 @@ a:hover{
 }
 
 .check-button:hover {
-    color: #D49C00; 
+	background-color: black;
+	color: white;
 }
 
 .clue {
@@ -165,69 +167,92 @@ a:hover{
 
 
 .clue-blue{
-	background-color: #58A4B0;
-	opacity: 0.25;
+	background-color: rgba(88,164,176,0.2);
 }
 
 .clue-yellow{
-	background-color: #D49C00;
-	opacity: 0.25;
+	background-color: rgba(212,156,0,0.2);
 }
 
 .clue-pink{
-	background-color: #FAB3A9;
-	opacity: 0.25;
+	background-color: rgba(250,179,169,0.2);
 }
 
 .clue-orange{
-	background-color: #F15A24;
-	opacity: 0.25;
+	background-color: rgba(241,90,36,0.2);
 }
 
 .clue-beige{
-	background-color: #C6AD94;
-	opacity: 0.25;
+	background-color: rgba(198,173,148,0.2);
 }
 
 .clue-green{
-	background-color: #05994F;
-	opacity: 0.25;
+	background-color: rgba(5,153,79,0.2);
 }
 
 
 .clue-lightblue{
-	background-color: #58A4B0;
-	opacity: 0.1;
-
+background-color: rgba(88,164,176,0.1);
 }
 
 .clue-lightyellow{
-	background-color: #D49C00;
-	opacity: 0.1;
+background-color: rgba(212,156,0,0.1);
 }
 
 .clue-lightpink{
-	background-color: #FAB3A9;
-	opacity: 0.1;
+background-color: rgba(250,179,169,0.1);
 }
 
 .clue-lightorange{
-	background-color: #F15A24;
-	opacity: 0.1;
+background-color: rgba(241,90,36,0.1);
 }
 
 .clue-lightbeige{
-	background-color: #C6AD94;
-	opacity: 0.1;
+background-color: rgba(198,173,148,0.1);
 }
 
 .clue-lightgreen{
-	background-color: #05994F;
-	opacity: 0.1;
+background-color: rgba(5,153,79,0.1);
 }
 
 img {
 	display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 50vw;
+    margin-bottom: 2em;
+}
+
+iframe{
+	margin-bottom: 2vh;
+}
+
+@media only screen and (max-width: 800px) {
+	    h1{
+
+	}
+
+	p{
+		line-height: 1.8em;
+		font-size: 1.4em;
+	}
+
+	h2{
+		font-size: 2.2em;
+	}
+
+	h6{
+		font-size: 1.4em;
+	}
+
+	.wrapper {
+	margin: auto;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+    width: 85vw;
+	}
+
+	svg{
+		width:85vw;
+	}
 }
